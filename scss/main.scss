@@ -255,7 +255,7 @@ a {
     background-image: url("../images/herobg-m.svg");
     background-repeat: no-repeat;
     background-size: 425px 306px;
-    background-position: calc(50% + 117px) calc(50% - 155px);
+    background-position: calc(50% + 117px) calc(50% - 342px);
 }
 
 .more-box {
@@ -307,6 +307,10 @@ a {
     color: #FFFFFF;
     background: #2BD0D0;
     border-radius: 28px;
+    &:hover{
+        background-color: #9AE3E3;
+        transition: all 0.3s ease;
+    }
 }
 
 .more-box__img-d {
@@ -316,7 +320,7 @@ a {
 @media only screen and (min-width: 388px) {
     .more {
         background-size: 483px 360px;
-        background-position: calc(50% + 126px) calc(50% - 194px);
+        background-position: calc(50% + 126px) calc(50% - 340px);
     }
 
 }
@@ -324,7 +328,7 @@ a {
 @media only screen and (min-width: 470px) {
     .more {
         background-size: 600px 420px;
-        background-position: calc(50% + 150px) calc(50% - 150px);
+        background-position: calc(50% + 150px) calc(50% - 335px);
     }
 
 }
@@ -332,7 +336,7 @@ a {
 @media only screen and (min-width: 540px) {
     .more {
         background-size: 921px 450px;
-        background-position: calc(50% + 222px) calc(50% - 160px);
+        background-position: calc(50% + 222px) calc(50% - 340px);
     }
 }
 
