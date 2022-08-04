@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template Project</title>
+  <title>Shortly</title>
   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
   <link rel="stylesheet" href="./css/main.css">
   <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
@@ -13,26 +13,71 @@
   <!-- SITE HEADER START -->
   <header class="site-header">
     <div class="container">
-
+      <div class="header-box">
+        <a class="logo" href="./index.html">
+          <img src="./images/logo.svg" 
+          width="120"
+          height="33"
+          alt="Shortly site's logo">
+        </a>
+        <button class="header-box__btn" type="button"></button>
+        <div class="header-box__wrap">
+          <nav class="header-box__nav">
+            <ul class="header-box__list">
+              <li class="header-box__item">
+                <a class="header-box__link" href="#">Features</a>
+              </li>
+              <li class="header-box__item">
+                <a class="header-box__link" href="#">Pricing</a>
+              </li>
+              <li class="header-box__item">
+                <a class="header-box__link" href="#">Resources</a>
+              </li>
+            </ul>
+          </nav>
+          <span class="header-box__tiny">
+            <a class="header-box__login" href="#">Login</a>
+            <a class="header-box__sign" href="#">Sign up</a>
+          </span>
+        </div>
+      </div>
     </div>
   </header>
   <!-- SITE HEADER END -->
   <!-- SITE MAIN START -->
   <main>
-    <!-- SECTION START -->
-    <section>
+    <!-- SECTION MORE START -->
+    <section class="more">
       <div class="container">
-
+        <div class="more-box">
+          <img class="more-box__img-m" src="./images/hero-m.svg" 
+          width="280"
+          height="270"
+          alt="Man using a computer">
+          <div class="more-box__title-box">
+            <h1 class="more-box__title">More than just shorter links</h1>
+          <p class="more-box__text">
+            Build your brand’s recognition and get detailed insights on how your links are performing.
+          </p>
+          <span class="more-box__tiny">
+            <a class="more-box__link" href="#">Get Started</a>
+          </span>
+          </div>
+          <img class="more-box__img-d" src="./images/hero-d.svg" 
+          width="300"
+          height="300"
+          alt="Man using a computer">
+        </div>
+        <form class="form" method="post" action="https://echo.htmlacademy.ru/courses" autocomplete="off">
+          <label class="form__label">
+            <input class="form__input" type="url" name="user_name" minlength="10" placeholder="Shorten a link here..." required>
+            <span class="form__tiny">Please add a link</span>
+          </label>
+          <button class="form__btn" type="submit">Shorten It!</button>
+        </form>
       </div>
     </section>
-    <!-- SECTION END -->
-    <!-- SECTION START -->
-    <section>
-      <div class="container">
-
-      </div>
-    </section>
-    <!-- SECTION END -->
+    <!-- SECTION MORE END -->
   </main>
   <!-- SITE MAIN END-->
 
@@ -43,6 +88,6 @@
     </div>
   </footer>
   <!-- SITE FOOTER END -->
-
+<script src="./js/main.js"></script>
 </body>
 </html>
